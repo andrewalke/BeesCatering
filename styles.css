@@ -1,0 +1,83 @@
+/* Style body by adding background image
+    add font family to font family
+*/
+body {
+    background-image: url(./images/clouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Style Brand */
+.logo {
+    height: 35px;
+}
+/* Style Nav Bar */
+.navbar-light {
+    background-attachment: rgba(0,0,0.5);
+}
+.links {
+    color: black;
+    font-size: 19px;
+    margin-right: 35px;
+    padding: 5px 0;
+}
+.links:hover {
+    color: yellow;
+}
+/* Style Jumbotron */
+.jumbotron {
+    background-color: transparent;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+
+/* Limit the width of Icon section */
+.container { 
+    max-width: 1000px;
+}
+/* Style Icons using Bootstrap Grid System */
+.body-img {
+    height: 100px;
+    padding-bottom: 15px;
+}
+.col-md-4 {
+    text-align: center;
+}
+.icons p {
+    font-size: 15px;
+}
+/* Style Contact Button */
+.contact {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.btn {
+    background-color: rgba(84, 88, 90, 0.5);
+    border: none;
+    border-radius: 10px;
+    color: #0C2340;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover {
+    background-color: rgba(138, 141, 143, 0.5);
+}
+/* Style Footer */
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #4B92DB;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+/* Use media queries to change icons size in small devices */
+@media (max-width: 768px){
+    .body-img {
+        height: 70px;
+    }
+}
